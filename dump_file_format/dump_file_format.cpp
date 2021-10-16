@@ -71,8 +71,6 @@ int wmain(int argc, wchar_t* argv[]) {
 
 	printf("writing to: %S", out_f_path.c_str());
 
-
-
 	fill_stream(file_ofstream, _buffer, line_sz);
 	file_ofstream.close();
 
